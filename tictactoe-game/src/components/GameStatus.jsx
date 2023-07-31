@@ -4,7 +4,7 @@ function GameStatus({ currentPlayer }) {
   return (
     <div className="flex flex-row justify-centeritems-center">
       <svg
-        className={`w-4 h-4 mr-2 transform transition-transform duration-500 ${
+        className={`w-2 h-2 mr-2 transform transition-transform duration-500 ${
           currentPlayer === 'X' ? 'scale-x-100' : 'scale-x-0'
         }`}
         viewBox="0 0 20 20"
@@ -17,7 +17,7 @@ function GameStatus({ currentPlayer }) {
         />
       </svg>
       <svg
-        className={`w-4 h-4 transform transition-transform duration-500 ${
+        className={`w-2 h-2 transform transition-transform duration-500 ${
           currentPlayer === 'O' ? 'scale-x-100' : 'scale-x-0'
         }`}
         viewBox="0 0 20 20"
