@@ -11,9 +11,9 @@ function GameStatus({ currentPlayer }) {
       >
         <path
           stroke="#4B5563"
-          strokeWidth="4"
+          strokeWidth="2"
           strokeLinecap="round"
-          d="M 10,10 L 30,30 M 30,10 L 10,30"
+          d="M 5,5 L 15,15 M 15,5 L 5,15"
         />
       </svg>
       <svg
