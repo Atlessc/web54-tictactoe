@@ -22,7 +22,7 @@ function GameStatus({ currentPlayer }) {
         }`}
         viewBox="0 0 40 40"
       >
-        <circle cx="20" cy="20" r="15" stroke="#4B5563" strokeWidth="4" fill="none" />
+        <circle cx="10" cy="10" r="8" stroke="#4B5563" strokeWidth="2" fill="none" />
       </svg>
     </div>
   );
