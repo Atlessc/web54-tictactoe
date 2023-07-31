@@ -2,7 +2,7 @@ import React from 'react';
 
 function GameStatus({ currentPlayer }) {
   return (
-    <div className="flex items-center">
+    <div className="flex flex-row justify-centeritems-center">
       <svg
         className={`w-8 h-8 mr-2 transform transition-transform duration-500 ${
           currentPlayer === 'X' ? 'scale-x-100' : 'scale-x-0'
